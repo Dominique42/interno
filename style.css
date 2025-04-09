@@ -1,89 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
-a {
-    text-decoration: none;
-}
+body {
+    color: #292F36;
 
-li {
-    list-style: none;
-}
-
-h1{
-    font-family: "DM Serif Display", serif;
-    font-size: 85px;
-}
-
-h2{
-    font-family: "DM Serif Display", serif;
-    font-size: 22px;
-}
-
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.spaceBetween {
-    justify-content: space-between;
-}
-
-.alignCenter {
-    align-items: center;
-}
-
-.container {
-    max-width:1000px;
-    margin: auto;
-}
-
-/* HEADER */
-.logo {
-    width: 200px;
-}
-
-.menu {
-    width: 30%;
-}
-
-header {
-    margin-top: 20px;
-}
-
-/* SECTION HERO */
-.hero {
-    background-image: url("assets/Banner.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size:cover;
-    border-radius: 0 0 0 200px;
-}
-
-.workContent{
-    width: 26%;
-}
-
-.margin100{
-    margin-top: 100px;
-}
-
-.largeur40{
-    width: 40%;
-}
-
-.bouton{
-    background: #09121b;
-    color: #eae1e1;
-    padding: 26px;
-    border-radius: 18px;
+    }
     
-}
+    
+    
+
+    a{
+        text-decoration: none;
+        font-family:  "jost", sans-serif;
+        color: #292F36 
+
+    }
+
+    p {
+        font-family: "jost", sans-serif;
+        font-size: 12px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    h1 {
+        font-family: "DM Serif Display", serif;
+        font-size: 70px;
+    }
+
+    h2 {
+        font-family: "DM Serif Display", serif;
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-family: "DM Serif Display", serif;
+        font-family: 22;
+        margin-bottom: 15px;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .spaceBetween {
+        justify-content: space-between;
+    }
+
+    .alignCenter {
+        align-items: center;
+    }
+
+    .texteCenter{
+        text-align: center;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .btn{
+        background-color: #292F36;
+        color: white;
+        padding-left: 31px;
+        padding-right: 31px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        display: inline-block;
+        border-radius: 18px;
+        margin-top: 30px;
+    }
+
+    /* HEADER */
+    .logo {
+        width: 200px;
+    }
+
+    .menu {
+        width: 30%;
+    }
+
+    header {
+        margin-top: 20px;
+    }
+
+    /* SECTION HERO */
+    .hero {
+        background-image: url("assets/Banner.jpg");
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 0 0 0 200px;
+        padding-top: 100px;
+    }
+
+    .pHero{
+        font-size: 22px;
+        
+    }
 
 
 
+    .workContent {
+        width: 26%;
+    }
 
+    .Padding150 {
+        padding-top : 120px;
+    }
+
+    .largeur40 {
+        width: 40%;
+    }
+
+    .imagesectiondevis{
+        border-radius: 0 200px 0 50px;
+    }
+    
+
+    .gap20{
+    gap: 20px;
+    }
+    
+    .iconAppel{
+        width: 30px;
+    }
+    .psectiondevis{
+        margin-bottom: 15;
+    }
