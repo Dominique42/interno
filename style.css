@@ -77,9 +77,10 @@ header {
 }
 
 .bouton{
-    background: #292f36;
+    background: #09121b;
     color: #eae1e1;
-    padding: 26px; 31px;
+    padding: 26px;
+    border-radius: 18px;
     
 }
 
