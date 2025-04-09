@@ -26,7 +26,7 @@ body {
 
     p {
         font-family: "jost", sans-serif;
-        font-size: 12px;
+        font-size: 18px;
     }
 
     li {
@@ -42,6 +42,11 @@ body {
         font-family: "DM Serif Display", serif;
         font-size: 50px;
         margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .bold{
+        font-weight: 700;
     }
 
     h3 {
@@ -123,7 +128,7 @@ body {
     }
 
     .largeur40 {
-        width: 40%;
+        width: 30%;
     }
 
     .imagesectiondevis{
@@ -139,5 +144,62 @@ body {
         width: 30px;
     }
     .psectiondevis{
-        margin-bottom: 15;
+        margin-bottom: 15px;
     }
+    .card{
+        background-color: #f3f7f7;
+        padding: 30px;
+        border-radius: 15px;
+    }
+    .sectionAvis{
+        background-color: #f4f0ec;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .card >img{
+        width: 30%;
+    }
+
+    .card>div{
+        width: 50%;
+        
+    }
+    .card>p{
+        margin-top: 30px;
+    }
+
+    .nom{
+        font-family: "DM Serif Display", serif;
+    }
+    
+
+
+    .cardProjet{
+        
+    }
+    .width45{
+        width: 45%;
+    }
+
+    .cardProjet>img{
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .cardProjet>a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        background-color:#f4f0ec ;
+        width: 70px;
+        height: 70px;
+        
+    }
+
+    .containerCardProjet{
+        margin-top: 50px;
+    }
+
